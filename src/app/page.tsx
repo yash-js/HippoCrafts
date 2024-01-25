@@ -31,7 +31,7 @@ export default function Home() {
             <span className="text-yellow-600"> digital assets</span>.
           </h1>
           <p className="mt-6 text-lg max-w-prose text-muted-foreground">
-            Welcome to Hipster. Every asset on our platform is verified by our team to ensure highest quality standards.
+            Welcome to HippoCrafts. Every asset on our platform is verified by our team to ensure highest quality standards.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-6">
             <Link href={'/products'} className={buttonVariants() + " font-semibold hover:opacity-85"}> Browse Trending</Link>
