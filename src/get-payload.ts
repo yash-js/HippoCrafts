@@ -45,7 +45,6 @@ export const getPayloadClient = async ({ initOptions }: Args = {}): Promise<Payl
       email: {
         transport: transporter,
         fromAddress: 'contact@yashpurani.com',
-        // fromAddress: '',
         fromName: "HippoCrafts"
       },
       secret: process.env.PAYLOAD_SECRET,

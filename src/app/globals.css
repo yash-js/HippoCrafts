@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -47,4 +47,17 @@
     --input: 12 6.5% 15.1%;
     --ring: 35.5 91.7% 32.9%;
   }
+}
+
+.swiper-pagination-bullet {
+  width: 7px !important;
+  height: 8px !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  scale: 0.9 !important;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fad60b !important;
+  background: #fad60b !important;
+  scale: 1 !important;
 }
