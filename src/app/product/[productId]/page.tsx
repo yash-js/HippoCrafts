@@ -109,7 +109,7 @@ const Page: NextPage<Props> = async ({ params }) => {
                         </div>
                     </section>
                 </div>
-                <div className="mt-10 lg:col-start-2 lg:row-start-2 lg:mt-0 lg:self-center">
+                <div className="mt-10 lg:col-start-2 lg:row-span-2 lg:mt-0 lg:self-center">
                     <div className="aspect-square rounded-lg">
                         <ImageSlider
                             urls={validUrls}
@@ -119,7 +119,7 @@ const Page: NextPage<Props> = async ({ params }) => {
                 <div className="mt-10 lg:col-start-1 lg:row-start-2 lg:max-w-lg lg:self-start">
                     <div >
                         <div className="mt-10">
-                        <AddToCartButton/>
+                            <AddToCartButton />
                         </div>
                         <div className="mt-6 text-center">
                             <div className="group inline-flex text-sm font-medium">
@@ -128,7 +128,7 @@ const Page: NextPage<Props> = async ({ params }) => {
                                     className='mr-2 h-5 w-6 flex-shrink-0 text-gray-400'
                                 />
                                 <span className='text-muted-foreground hover:text-gray-700'>
-                                    30 Days Return Gauratnee
+                                    30 Days Return Guarantee
                                 </span>
                             </div>
                         </div>
