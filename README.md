@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # HippoCrafts
 
-HippoCrafts is a marketplace for high quality digital assets.
+Hippo Crafts is a marketplace for high quality digital assets.
 
 ## Getting Started
 
