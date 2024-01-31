@@ -13,6 +13,7 @@ interface Props {
     index: number;
 }
 
+
 function ProductListing({ product, index }: Props) {
     const [isVisible, setIsVisible] = useState(false)
 
