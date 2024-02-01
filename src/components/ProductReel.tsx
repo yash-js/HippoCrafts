@@ -28,7 +28,7 @@ function ProductReel(props: Props) {
     let map: (Product | null)[] = []
 
     if (products && products.length) {
-        map = products
+        map = products!
     }
     else if (isLoading) {
         map = new Array<null>(query.limit || FALLBACK_LIMIT).fill(null)
@@ -61,7 +61,7 @@ function ProductReel(props: Props) {
                     <div className="w-full grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-10  lg:gap-x-8">
                         {map.map((product, i) => (
                             <ProductListing
-                                key={product?.id}
+                                key={`product-${i}`}
                                 product={product}
                                 index={i}
                             />
