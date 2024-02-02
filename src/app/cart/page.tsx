@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button'
 import { PRODUCT_CATEGORIES } from '@/config'
 import { useCart } from '@/hooks/use-cart'
 import { cn, formatPrice } from '@/lib/utils'
+import { trpc } from '@/trpc/client'
 import { Check, Loader2, X } from 'lucide-react'
 import { NextPage } from 'next'
 import Image from 'next/image'
@@ -13,7 +14,7 @@ interface Props { }
 
 const Page: NextPage<Props> = ({ }) => {
     const { items, removeItem } = useCart()
-
+    const {} = trpc.payment.createSession.useMutation()
     const [isMounted, setIsMounted] = useState(false)
 
 
