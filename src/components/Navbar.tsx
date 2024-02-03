@@ -7,6 +7,7 @@ import Cart from "./Cart";
 import { getServerSideUser } from "@/lib/payload-utils";
 import { cookies } from "next/headers";
 import UserAccountNav from "./UserAccountNav";
+import MobileNav from "./MobileNav";
 
 async function Navbar() {
     const nextCookies = cookies()
@@ -17,7 +18,7 @@ async function Navbar() {
                 <MaxWidthWrapper>
                     <div className="border-b border-t-gray-200">
                         <div className="flex h-16 items-center">
-                            {/* TODO:MOBILE MENU */}
+                            <MobileNav />
 
                             <div className="ml-4 lg:ml-0 flex ">
                                 <Link href={'/'} title="HippoCrafts">
