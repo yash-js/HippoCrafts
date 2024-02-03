@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  payloadPath: path.resolve(process.cwd(), "./src/get-payload.ts"),
   images: {
-    domains: ["localhost"],
+    domains: ['localhost'],
     remotePatterns: [
       {
         hostname: "localhost",
