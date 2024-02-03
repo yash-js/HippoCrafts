@@ -28,7 +28,7 @@ export const Products: CollectionConfig = {
                         name: data?.name,
                         default_price_data: {
                             currency: "INR",
-                            unit_amount: Math.round(data?.Price * 100)
+                            unit_amount: Math.round(data?.price * 100)
                         }
                     })
                     const updated: Product = {
@@ -78,7 +78,7 @@ export const Products: CollectionConfig = {
             label: 'Product Details',
         },
         {
-            name: 'Price',
+            name: 'price',
             label: 'Price in INR',
             min: 0,
             defaultValue: 0,

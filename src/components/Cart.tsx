@@ -16,7 +16,7 @@ const Cart = () => {
     const { items } = useCart()
     const itemCount = items.length
 
-    const cartTotal = items.reduce((total, { product }) => total + product?.Price, 0)
+    const cartTotal = items.reduce((total, { product }) => total + product?.price, 0)
 
 
     const fee = 12.5
