@@ -6,6 +6,8 @@ Hippo Crafts is a marketplace for high quality digital assets.
 
 ## Getting Started
 
+
+
 First, run the development server:
 
 ```bash
